@@ -1,0 +1,66 @@
+.site-header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:powderblue;
+}
+img{
+    width:7.5rem;
+    
+}
+.welcome{
+    text-align:center;
+}
+main.h1{
+    text-align:center;
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo-theme{
+    color:salmon;
+    text-align:center;
+}
+.logo-theme-left{
+    color:salmon;
+    text-align:left;
+}
+#pets{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:.5rem;
+    column-gap:.5rem;
+    margin-bottom:1rem;
+    
+}
+.pet{
+    border:1px solid black;
+    border-radius: 8px;
+    background-color:powderblue;
+    padding:1rem;
+}
+.table-head{
+    border: 1px solid black;
+    background-color: powderblue;
+    margin-top:1rem;
+    
+    
+}
+body{
+    background-color:rgba(247, 161, 86, 0.123);
+    
+}
+.delete-btn{
+    border:none;
+    background-color:rgba(247, 161, 86, 0);
+}
+.edit-btn{
+    border:none;
+    background-color: rgba(247, 161, 86, 0);
+}
+.hide{
+    display:none;
+}
+.highlight{
+    background-color:rgba(255, 42, 42, 0.384);
+}
